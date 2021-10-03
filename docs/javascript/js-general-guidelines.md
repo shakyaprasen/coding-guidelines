@@ -25,7 +25,7 @@ Apart from the eslint validation. Following should be taken care of.
 
 - Write pure functions where ever possible. It keeps the code more understandable and deterministic, plus it helps to avoid unexpected run time issues due to mutation.
 
-- Don't mutate the parameters received in functions.
+- Don't mutate the parameters received in functions. Parameter mutations could result in unforseen side effects in the code.
 
   ```js
   // DO NOT MUTATE function parameters.

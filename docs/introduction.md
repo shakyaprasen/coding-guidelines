@@ -13,6 +13,8 @@ title: General Coding Guidelines
 
 * Avoid code duplication (DRY). If the same code needs to be reused in multiple places, create a extract a common function instead.
 
+* Avoid unnecessary/complex abstraction in the name of keeping code DRY. Try to keep code WET (Write everything twice) before keeping it dry.
+
 * While writing code make sure it doesn't violate SRP (Single Responsibility Principle). To be more specific take care of the following:
 
 * A function/method should do only one task.
